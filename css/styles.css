@@ -11025,3 +11025,17 @@ form .row:first-child .floating-label-form-group {
   color: white !important;
   background-color: black;
 }
+
+table.table-comparison {
+  border-spacing: 10px;
+}
+
+table.table-comparison td {
+  vertical-align: middle;
+  padding: 16px 18px;
+  text-align: center;
+}
+
+table.table-comparison tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
