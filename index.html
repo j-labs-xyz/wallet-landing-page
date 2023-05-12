@@ -134,13 +134,17 @@
                       <input type="checkbox" checked>
                       <i></i>
                       <h5>1. What did you mean by "NEXT GENERATION"?</h5>
-                      <p>This page was written in HTML and CSS. The CSS was compiled from SASS. I used Normalize as my CSS reset and -prefix-free to save myself some headaches. I haven't quite gotten the hang of Slim for compiling into HTML, but someday I'll use it since its syntax compliments that of SASS. Regardless, this could all be done in plain HTML and CSS.</p>
+                      <p>The first generation crypto wallets require the user to manage his private key or seed phrase, it is very hard for everyone including crypto veterans. All the assets are lost if the key or seed phrase is lost.</p>
+                      <p>The second generation crypto wallets are trying to solve this pain point by all means, using methods like multi-signature, smart contract, and MPC. The problem is getting better, somehow most current MPC solutions require one key share to be stored on the solution provider's side. This introduces some risk and concerns around custody.</p>
+                      <p>The next generation crypto wallets will be attempting to solve the pain point completely, so that the user does not have to manage his private key and worry about losing the key then losing everything.</p>
                     </li>
                     <li>
                       <input type="checkbox" checked>
                       <i></i>
                       <h5>2. What did you mean by "BETTER MPC"?</h5>
-                      <p>Using the sibling and checked selectors, we can determine the styling of sibling elements based on the checked state of the checkbox input element. One use, as demonstrated here, is an entirely CSS and HTML accordion element. Media queries are used to make the element responsive to different screen sizes.</p>
+                      <p>Currently, most MPC solutions offer n of m secret sharing scheme, e.g. 2 of 2, 2 of 3 and etc. Which require one key share to be stored on the solution provider's side. The problem comes back again regarding what if it gets lost.</p>
+                      <p>Our wallet is built on a new MPC solution where the user's key shares are stored on distributed nodes, they collectively run and form a network as a middle layer on top of blockchains, governed by concensus. There is no need to stored key shares on any third parties, and the user has full control.</p>
+                      <p>Please refer to the infrastructure <a style="color:#fff; text-decoration: underline;" href="https://litprotocol.com/">Lit Protocol</a> which the wallet is built on.</p>
                     </li>
                   </ul>
             </div>
