@@ -11064,6 +11064,10 @@ ul.accordion li h5 {
   padding-top: 0.5rem;
 }
 
+ul.accordion li p {
+  padding-top: 0.5rem;
+}
+
 ul.accordion {
   list-style: none;
   perspective: 900;
