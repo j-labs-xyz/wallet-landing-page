@@ -11186,3 +11186,13 @@ ul.accordion li input[type=checkbox]:checked ~ i:after {
 #comparison {
   padding-bottom: 6rem;
 }
+
+
+
+.border-button-contents {
+  padding: 16px 24px;
+  border-radius: 6px;
+  background-color: #060203;
+  text-align: center;
+  color: white;
+}
