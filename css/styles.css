@@ -11176,7 +11176,8 @@ ul.accordion li input[type=checkbox]:checked ~ i:after {
 }
 
 .page-section-heading-2 {
-  font-size: 30px;
+  font-size: 20px;
+  line-height: 3rem;
 }
 
 .page-section-heading-3 {
