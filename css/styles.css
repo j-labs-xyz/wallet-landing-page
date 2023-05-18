@@ -10473,7 +10473,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 
 .page-section .page-section-heading {
@@ -10775,8 +10775,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio {
-  padding-top: 6rem;
-  padding-bottom: 4.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .page-section-heading {
@@ -11156,4 +11156,33 @@ ul.accordion li input[type=checkbox]:checked ~ i:after {
     transform-origin: top center;
     transform: rotateX(0deg);
   }
+}
+
+
+
+.container-center {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.page-section-heading {
+  line-height: 3rem;
+}
+
+.page-section-heading-1 {
+  font-size: 36px;
+}
+
+.page-section-heading-2 {
+  font-size: 36px;
+}
+
+.page-section-heading-3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#comparison {
+  padding-bottom: 6rem;
 }
