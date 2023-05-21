@@ -11222,7 +11222,7 @@ ul.accordion li input[type=checkbox]:checked~i:after {
   height: 1024px;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 429px) {
   .fixed-top {
     position: relative;
   }
@@ -11242,7 +11242,7 @@ ul.accordion li input[type=checkbox]:checked~i:after {
   }
 
   .iframe {
-    width: 400px;
+    width: 100%;
   }
 
   #scollButton {
@@ -11252,5 +11252,15 @@ ul.accordion li input[type=checkbox]:checked~i:after {
 
   .tableMobile {
     justify-content: center;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0 1em;
+  }
+
+  ul.accordion li {
+    width: calc(100% - 2em);
   }
 }
