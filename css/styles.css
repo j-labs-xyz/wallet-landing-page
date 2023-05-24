@@ -11215,6 +11215,8 @@ ul.accordion li input[type=checkbox]:checked~i:after {
   background-color: #060203;
   text-align: center;
   color: white;
+  max-width: 220pt;
+  min-width: 200pt;
 }
 
 .iframe {
